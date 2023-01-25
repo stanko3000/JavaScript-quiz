@@ -1,0 +1,79 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url( 'blob-haikei.svg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0 0;
+    
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    padding: 15px 30px;
+    position: relative;
+    float:right;
+    margin: 0 2px 0 2px;
+    border-radius: 5px;
+    background: #4443fc;
+    box-shadow: inset 5px 5px 10px #3030b3,
+    inset -5px -5px 10px #5856ff;
+}
+
+.button:hover {
+    background: rgb(124, 196, 252);
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 80px 10px;
+    
+    border:0px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+    background-image: url( 'blob-scene-haikei.svg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#quiz p{
+    font-size: 20px;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+li{
+    margin: 5px 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
